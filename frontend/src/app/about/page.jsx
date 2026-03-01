@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function AboutPage() {
   return (
     <div>
@@ -6,7 +8,7 @@ export default function AboutPage() {
         <h1>About NESt</h1>
         <nav aria-label="breadcrumb">
           <ol>
-            <li><a href="/">Home</a></li>
+            <li><Link href="/">Home</Link></li>
             <li aria-current="page">About</li>
           </ol>
         </nav>
@@ -28,7 +30,7 @@ export default function AboutPage() {
         </p>
         <p>
           Operating under the banner of the Viksit Purvottar Innovation 
-          Centre, NESt is the region's first unified science, technology, 
+          Centre, NESt is the region &apos;s first unified science, technology, 
           and entrepreneurship cluster — designed not just for research, 
           but for real-world impact across all eight states.
         </p>
@@ -51,7 +53,7 @@ export default function AboutPage() {
               To connect people, institutions, and ideas across 
               the Northeast through research, incubation, skill 
               development, and structured employment — building 
-              a future rooted in the region's identity and resources.
+              a future rooted in the region &apos;s identity and resources.
             </p>
           </div>
           <div> 
@@ -129,7 +131,7 @@ export default function AboutPage() {
             <div>[MDoNER Logo placeholder]</div>
             <p>
               Policy ownership, budget sanction, and 
-              national alignment of NESt's mandate.
+              national alignment of NEST &apos;s mandate.
             </p>
           </div>
 
@@ -316,11 +318,11 @@ export default function AboutPage() {
         <h2>Rooted in Purpose. Aligned with India.</h2>
         
         <p>
-          NESt's work is directly aligned with two defining national goals:
+          NEST &apos;s work is directly aligned with two defining national goals:
         </p>
         
         <p>
-          <strong>Viksit Bharat @ 2047</strong> — India's commitment to becoming a 
+          <strong>Viksit Bharat @ 2047</strong> — India &apos;s commitment to becoming a 
           developed nation by the centenary of independence, driven 
           by science, technology, and inclusive growth.
         </p>
@@ -328,7 +330,7 @@ export default function AboutPage() {
         <p>
           <strong>Viksit Purvottar</strong> — The regional expression of this vision, 
           ensuring that the Northeast is not left behind but instead 
-          becomes a model for innovation-led development in India's 
+          becomes a model for innovation-led development in India &apos;s 
           biodiversity-rich frontier states.
         </p>
 

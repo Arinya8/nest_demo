@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         {/* ANNOUNCEMENT BAR */}
         <div className="announcement-bar">
           <div className="announcement-content">
-            <span>🚀 NESt is now officially launched! North Eastern India's Innovation Journey Begins.</span>
+            <span>NESt is now officially launched! North Eastern India&quot;s Innovation Journey Begins.</span>
             <div className="announcement-ctas">
               <Link href="/about" className="cta-button">Learn More</Link>
               <button disabled className="cta-button disabled">Register as Startup</button>
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
             <div className="logo">
               <img src="/nest-logo.png" alt="NESt Logo" width="150" height="60" />
             </div>
-            
+
             <nav className="main-nav">
               <ul className="nav-list">
                 <li><Link href="/">Home</Link></li>
@@ -80,13 +80,6 @@ export default function RootLayout({ children }) {
             <div className="language-switcher">
               <span>EN</span>
               <span className="coming-soon">| অস</span>
-              <span className="coming-soon">| বাং</span>
-              <span className="coming-soon">| बो</span>
-              <span className="coming-soon">| মৈ</span>
-              <span className="coming-soon">| मि</span>
-              <span className="coming-soon">| नगा</span>
-              <span className="coming-soon">| খা</span>
-              <span className="coming-soon">| नेपा</span>
               <span className="coming-soon">| हि</span>
             </div>
           </div>
@@ -118,11 +111,11 @@ export default function RootLayout({ children }) {
                 <li><Link href="/media-centre">Media Centre</Link></li>
                 <li><Link href="/universities">Universities</Link></li>
                 <li><Link href="/careers">Careers</Link></li>
-                   
+
               </ul>
-              </div>
-              </div> 
-              </footer>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

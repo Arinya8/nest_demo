@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from 'next/link';
 
 const verticals = [
   {
@@ -215,9 +216,9 @@ function VerticalCard({ vertical }) {
           </section>
 
           <div className="vertical-card__cta">
-            <a href={vertical.ctaHref} className="vertical-card__cta-link">
+            <Link href={vertical.ctaHref} className="vertical-card__cta-link">
               {vertical.ctaLabel}
-            </a>
+            </Link>
           </div>
         </div>
       )}
@@ -232,7 +233,7 @@ export default function VerticalsPage() {
       <nav className="verticals-breadcrumb" aria-label="Breadcrumb">
         <ol>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li aria-current="page">Verticals</li>
         </ol>
